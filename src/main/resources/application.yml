@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "booking-service"
+  profiles:
+    active: "service"
+  config:
+    import: "optional:configserver:http://localhost:8088"
